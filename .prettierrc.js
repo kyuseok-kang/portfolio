@@ -1,8 +1,8 @@
-{
+module.exports = {
   "singleQuote": true,
   "parser": "typescript",
-  "trailingComma": "all",
+  "trailingComma": "none",
   "semi": true,
-  "useTabs": true,
+  "tabWidth": 2,
   "printWidth": 120
-}
+};

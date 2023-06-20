@@ -1,9 +1,14 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
+import styled from 'styled-components';
 
-const HeaderContainer = forwardRef<HTMLButtonElement | HTMLAnchorElement>((props, ref) => {
+const HeaderWrapper = styled.div``;
+
+const HeaderContainer = () => {
   return (
-    <div>
+    <HeaderWrapper>
       <div>HeaderContainer</div>
-    </div>
+    </HeaderWrapper>
   );
-});
+};
+
+export default HeaderContainer;

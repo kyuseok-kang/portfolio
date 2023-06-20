@@ -7,10 +7,7 @@ export interface IValue {
 
 export const valueState = atomFamily<IValue, string>({
   key: 'key',
-  default: (id) => ({
-    id,
-    value: null
-  })
+  default: (id) => ({ id, value: null })
 });
 
 export const useValueState = (id: string) => {
